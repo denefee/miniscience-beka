@@ -1,0 +1,3 @@
+/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/udlin.dir
+/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/edit_cache.dir
+/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/rebuild_cache.dir

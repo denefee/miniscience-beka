@@ -1,0 +1,2702 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.5.0-17-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/3.27.4/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: -std=c++17;-g
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e182/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0e182.dir/build.make CMakeFiles/cmTC_0e182.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO'
+        Building C object CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e182.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccN2TUro.s
+        GNU C17 (Ubuntu 13.2.0-4ubuntu3) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: edbc28f9c9bb85637ee0b8e5b79ac141
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o /tmp/ccN2TUro.s
+        GNU assembler version 2.41 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_0e182
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e182.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -o cmTC_0e182 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e182' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e182.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6lXGfX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0e182 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e182' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e182.'
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0e182/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0e182.dir/build.make CMakeFiles/cmTC_0e182.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EnpzzO']
+        ignore line: [Building C object CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_0e182.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccN2TUro.s]
+        ignore line: [GNU C17 (Ubuntu 13.2.0-4ubuntu3) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: edbc28f9c9bb85637ee0b8e5b79ac141]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o /tmp/ccN2TUro.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_0e182]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e182.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -o cmTC_0e182 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0e182' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_0e182.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6lXGfX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0e182 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc6lXGfX.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0e182] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_0e182.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-std=c++17 -g"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a1a7f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a1a7f.dir/build.make CMakeFiles/cmTC_a1a7f.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b'
+        Building CXX object CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -std=c++17 -g    -v -o CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) 
+        COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a1a7f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -std=c++17 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccR41ymD.s
+        GNU C++17 (Ubuntu 13.2.0-4ubuntu3) version 13.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 2d107d43320bae9d835c0808be5fcba6
+        COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/'
+         as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccR41ymD.s
+        GNU assembler version 2.41 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.41
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_a1a7f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a7f.dir/link.txt --verbose=1
+        /usr/bin/c++ -std=c++17 -g   -v CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a1a7f 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'cmTC_a1a7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a1a7f.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cctbp74N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1a7f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'cmTC_a1a7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a1a7f.'
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a1a7f/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a1a7f.dir/build.make CMakeFiles/cmTC_a1a7f.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-1KB42b']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -std=c++17 -g    -v -o CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a1a7f.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -g -std=c++17 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccR41ymD.s]
+        ignore line: [GNU C++17 (Ubuntu 13.2.0-4ubuntu3) version 13.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2d107d43320bae9d835c0808be5fcba6]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/']
+        ignore line: [ as -v --gdwarf-5 --64 -o CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccR41ymD.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.41]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_a1a7f]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a7f.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++ -std=c++17 -g   -v CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a1a7f ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.2.0-4ubuntu3' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-XYspKM/gcc-13-13.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Ubuntu 13.2.0-4ubuntu3) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++17' '-g' '-v' '-o' 'cmTC_a1a7f' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a1a7f.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cctbp74N.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1a7f /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cctbp74N.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a1a7f] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_a1a7f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c19aa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c19aa.dir/build.make CMakeFiles/cmTC_c19aa.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ'
+        Building C object CMakeFiles/cmTC_c19aa.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c19aa.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ/test_mpi.c
+        Linking C executable cmTC_c19aa
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19aa.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c19aa.dir/test_mpi.c.o -o cmTC_c19aa  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-c3rZSZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c24a4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c24a4.dir/build.make CMakeFiles/cmTC_c24a4.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c24a4.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c24a4.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_c24a4.dir/build.make:78: CMakeFiles/cmTC_c24a4.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_c24a4/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f67ce/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f67ce.dir/build.make CMakeFiles/cmTC_f67ce.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT'
+        Building C object CMakeFiles/cmTC_f67ce.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f67ce.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT/test_mpi.c
+        Linking C executable cmTC_f67ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67ce.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f67ce.dir/test_mpi.c.o -o cmTC_f67ce  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-jtv3yT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:11 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_32e44/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_32e44.dir/build.make CMakeFiles/cmTC_32e44.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_32e44.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_32e44.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_32e44.dir/build.make:78: CMakeFiles/cmTC_32e44.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_32e44/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bd858/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bd858.dir/build.make CMakeFiles/cmTC_bd858.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt'
+        Building C object CMakeFiles/cmTC_bd858.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_bd858.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt/test_mpi.c
+        Linking C executable cmTC_bd858
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd858.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_bd858.dir/test_mpi.c.o -o cmTC_bd858  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KDN5rt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4e992/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4e992.dir/build.make CMakeFiles/cmTC_4e992.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_4e992.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4e992.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_4e992.dir/build.make:78: CMakeFiles/cmTC_4e992.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_4e992/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8ddf1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8ddf1.dir/build.make CMakeFiles/cmTC_8ddf1.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77'
+        Building C object CMakeFiles/cmTC_8ddf1.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8ddf1.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77/test_mpi.c
+        Linking C executable cmTC_8ddf1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ddf1.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_8ddf1.dir/test_mpi.c.o -o cmTC_8ddf1  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-GNBs77'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3f99a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3f99a.dir/build.make CMakeFiles/cmTC_3f99a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_3f99a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3f99a.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_3f99a.dir/build.make:78: CMakeFiles/cmTC_3f99a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_3f99a/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f39f4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f39f4.dir/build.make CMakeFiles/cmTC_f39f4.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP'
+        Building C object CMakeFiles/cmTC_f39f4.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f39f4.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP/test_mpi.c
+        Linking C executable cmTC_f39f4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39f4.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f39f4.dir/test_mpi.c.o -o cmTC_f39f4  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-ulndoP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e073e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e073e.dir/build.make CMakeFiles/cmTC_e073e.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e073e.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_e073e.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_e073e.dir/build.make:78: CMakeFiles/cmTC_e073e.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_e073e/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1dc08/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1dc08.dir/build.make CMakeFiles/cmTC_1dc08.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR'
+        Building C object CMakeFiles/cmTC_1dc08.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1dc08.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR/test_mpi.c
+        Linking C executable cmTC_1dc08
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dc08.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1dc08.dir/test_mpi.c.o -o cmTC_1dc08  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KtMPvR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a624b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a624b.dir/build.make CMakeFiles/cmTC_a624b.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a624b.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a624b.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_a624b.dir/build.make:78: CMakeFiles/cmTC_a624b.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_a624b/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87c5a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_87c5a.dir/build.make CMakeFiles/cmTC_87c5a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO'
+        Building C object CMakeFiles/cmTC_87c5a.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_87c5a.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO/test_mpi.c
+        Linking C executable cmTC_87c5a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87c5a.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_87c5a.dir/test_mpi.c.o -o cmTC_87c5a  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-keIYMO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9e62/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9e62.dir/build.make CMakeFiles/cmTC_a9e62.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_a9e62.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_a9e62.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_a9e62.dir/build.make:78: CMakeFiles/cmTC_a9e62.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_a9e62/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6f6e7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6f6e7.dir/build.make CMakeFiles/cmTC_6f6e7.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua'
+        Building C object CMakeFiles/cmTC_6f6e7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6f6e7.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua/test_mpi.c
+        Linking C executable cmTC_6f6e7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f6e7.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_6f6e7.dir/test_mpi.c.o -o cmTC_6f6e7  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qdj8ua'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5ee02/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5ee02.dir/build.make CMakeFiles/cmTC_5ee02.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_5ee02.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5ee02.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_5ee02.dir/build.make:78: CMakeFiles/cmTC_5ee02.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_5ee02/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b943c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b943c.dir/build.make CMakeFiles/cmTC_b943c.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU'
+        Building C object CMakeFiles/cmTC_b943c.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b943c.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU/test_mpi.c
+        Linking C executable cmTC_b943c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b943c.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b943c.dir/test_mpi.c.o -o cmTC_b943c  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-UYLfPU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_39b4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_39b4b.dir/build.make CMakeFiles/cmTC_39b4b.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_39b4b.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_39b4b.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_39b4b.dir/build.make:78: CMakeFiles/cmTC_39b4b.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_39b4b/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b4fd8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b4fd8.dir/build.make CMakeFiles/cmTC_b4fd8.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6'
+        Building C object CMakeFiles/cmTC_b4fd8.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b4fd8.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6/test_mpi.c
+        Linking C executable cmTC_b4fd8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4fd8.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b4fd8.dir/test_mpi.c.o -o cmTC_b4fd8  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-sPjYe6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c43ba/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c43ba.dir/build.make CMakeFiles/cmTC_c43ba.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c43ba.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c43ba.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_c43ba.dir/build.make:78: CMakeFiles/cmTC_c43ba.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_c43ba/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c94fc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c94fc.dir/build.make CMakeFiles/cmTC_c94fc.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC'
+        Building C object CMakeFiles/cmTC_c94fc.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_c94fc.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC/test_mpi.c
+        Linking C executable cmTC_c94fc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c94fc.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_c94fc.dir/test_mpi.c.o -o cmTC_c94fc  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-vBKiRC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_033c1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_033c1.dir/build.make CMakeFiles/cmTC_033c1.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_033c1.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_033c1.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_033c1.dir/build.make:78: CMakeFiles/cmTC_033c1.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_033c1/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b6199/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b6199.dir/build.make CMakeFiles/cmTC_b6199.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ'
+        Building C object CMakeFiles/cmTC_b6199.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b6199.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ/test_mpi.c
+        Linking C executable cmTC_b6199
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6199.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b6199.dir/test_mpi.c.o -o cmTC_b6199  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-O2woxJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ace0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ace0.dir/build.make CMakeFiles/cmTC_4ace0.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_4ace0.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4ace0.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_4ace0.dir/build.make:78: CMakeFiles/cmTC_4ace0.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_4ace0/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1d17/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e1d17.dir/build.make CMakeFiles/cmTC_e1d17.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89'
+        Building C object CMakeFiles/cmTC_e1d17.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e1d17.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89/test_mpi.c
+        Linking C executable cmTC_e1d17
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d17.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e1d17.dir/test_mpi.c.o -o cmTC_e1d17  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BCBo89'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_10185/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_10185.dir/build.make CMakeFiles/cmTC_10185.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_10185.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_10185.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_10185.dir/build.make:78: CMakeFiles/cmTC_10185.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_10185/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_401c7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_401c7.dir/build.make CMakeFiles/cmTC_401c7.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp'
+        Building C object CMakeFiles/cmTC_401c7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_401c7.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp/test_mpi.c
+        Linking C executable cmTC_401c7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_401c7.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_401c7.dir/test_mpi.c.o -o cmTC_401c7  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-AFOHgp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1dd4d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1dd4d.dir/build.make CMakeFiles/cmTC_1dd4d.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_1dd4d.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1dd4d.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_1dd4d.dir/build.make:78: CMakeFiles/cmTC_1dd4d.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_1dd4d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5857/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f5857.dir/build.make CMakeFiles/cmTC_f5857.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm'
+        Building C object CMakeFiles/cmTC_f5857.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f5857.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm/test_mpi.c
+        Linking C executable cmTC_f5857
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5857.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f5857.dir/test_mpi.c.o -o cmTC_f5857  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-trQ4Bm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ba12a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ba12a.dir/build.make CMakeFiles/cmTC_ba12a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_ba12a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_ba12a.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_ba12a.dir/build.make:78: CMakeFiles/cmTC_ba12a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_ba12a/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b0f7d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b0f7d.dir/build.make CMakeFiles/cmTC_b0f7d.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP'
+        Building C object CMakeFiles/cmTC_b0f7d.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_b0f7d.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP/test_mpi.c
+        Linking C executable cmTC_b0f7d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0f7d.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_b0f7d.dir/test_mpi.c.o -o cmTC_b0f7d  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-SfTclP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_41fb9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_41fb9.dir/build.make CMakeFiles/cmTC_41fb9.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_41fb9.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_41fb9.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_41fb9.dir/build.make:78: CMakeFiles/cmTC_41fb9.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_41fb9/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24b43/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24b43.dir/build.make CMakeFiles/cmTC_24b43.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA'
+        Building C object CMakeFiles/cmTC_24b43.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_24b43.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA/test_mpi.c
+        Linking C executable cmTC_24b43
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24b43.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_24b43.dir/test_mpi.c.o -o cmTC_24b43  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-lci0OA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db37a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_db37a.dir/build.make CMakeFiles/cmTC_db37a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_db37a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_db37a.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_db37a.dir/build.make:78: CMakeFiles/cmTC_db37a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_db37a/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9a95/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e9a95.dir/build.make CMakeFiles/cmTC_e9a95.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5'
+        Building C object CMakeFiles/cmTC_e9a95.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e9a95.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5/test_mpi.c
+        Linking C executable cmTC_e9a95
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9a95.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e9a95.dir/test_mpi.c.o -o cmTC_e9a95  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-6MVKt5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40169/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_40169.dir/build.make CMakeFiles/cmTC_40169.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_40169.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_40169.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_40169.dir/build.make:78: CMakeFiles/cmTC_40169.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_40169/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fb2ce/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fb2ce.dir/build.make CMakeFiles/cmTC_fb2ce.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau'
+        Building C object CMakeFiles/cmTC_fb2ce.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_fb2ce.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau/test_mpi.c
+        Linking C executable cmTC_fb2ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb2ce.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_fb2ce.dir/test_mpi.c.o -o cmTC_fb2ce  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-KSHGau'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_49d13/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_49d13.dir/build.make CMakeFiles/cmTC_49d13.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_49d13.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_49d13.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_49d13.dir/build.make:78: CMakeFiles/cmTC_49d13.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_49d13/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_65a6c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_65a6c.dir/build.make CMakeFiles/cmTC_65a6c.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT'
+        Building C object CMakeFiles/cmTC_65a6c.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_65a6c.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT/test_mpi.c
+        Linking C executable cmTC_65a6c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a6c.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_65a6c.dir/test_mpi.c.o -o cmTC_65a6c  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gl39uT'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_27ce8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_27ce8.dir/build.make CMakeFiles/cmTC_27ce8.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_27ce8.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_27ce8.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_27ce8.dir/build.make:78: CMakeFiles/cmTC_27ce8.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_27ce8/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d759/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d759.dir/build.make CMakeFiles/cmTC_5d759.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54'
+        Building C object CMakeFiles/cmTC_5d759.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5d759.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54/test_mpi.c
+        Linking C executable cmTC_5d759
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d759.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5d759.dir/test_mpi.c.o -o cmTC_5d759  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-DiOa54'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c33ed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c33ed.dir/build.make CMakeFiles/cmTC_c33ed.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c33ed.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c33ed.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_c33ed.dir/build.make:78: CMakeFiles/cmTC_c33ed.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_c33ed/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1262e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1262e.dir/build.make CMakeFiles/cmTC_1262e.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud'
+        Building C object CMakeFiles/cmTC_1262e.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_1262e.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud/test_mpi.c
+        Linking C executable cmTC_1262e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1262e.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_1262e.dir/test_mpi.c.o -o cmTC_1262e  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-qRcEud'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d8a47/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d8a47.dir/build.make CMakeFiles/cmTC_d8a47.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_d8a47.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d8a47.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_d8a47.dir/build.make:78: CMakeFiles/cmTC_d8a47.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_d8a47/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7f731/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7f731.dir/build.make CMakeFiles/cmTC_7f731.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW'
+        Building C object CMakeFiles/cmTC_7f731.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7f731.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW/test_mpi.c
+        Linking C executable cmTC_7f731
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f731.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_7f731.dir/test_mpi.c.o -o cmTC_7f731  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-nAeQhW'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09caa/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_09caa.dir/build.make CMakeFiles/cmTC_09caa.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_09caa.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_09caa.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_09caa.dir/build.make:78: CMakeFiles/cmTC_09caa.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_09caa/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d394/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d394.dir/build.make CMakeFiles/cmTC_5d394.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN'
+        Building C object CMakeFiles/cmTC_5d394.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_5d394.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN/test_mpi.c
+        Linking C executable cmTC_5d394
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d394.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_5d394.dir/test_mpi.c.o -o cmTC_5d394  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-BMQOdN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37f3a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_37f3a.dir/build.make CMakeFiles/cmTC_37f3a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_37f3a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_37f3a.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_37f3a.dir/build.make:78: CMakeFiles/cmTC_37f3a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_37f3a/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e6e05/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e6e05.dir/build.make CMakeFiles/cmTC_e6e05.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5'
+        Building C object CMakeFiles/cmTC_e6e05.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_e6e05.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5/test_mpi.c
+        Linking C executable cmTC_e6e05
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6e05.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_e6e05.dir/test_mpi.c.o -o cmTC_e6e05  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-EjQul5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7b077/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7b077.dir/build.make CMakeFiles/cmTC_7b077.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_7b077.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7b077.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_7b077.dir/build.make:78: CMakeFiles/cmTC_7b077.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_7b077/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_17fa4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_17fa4.dir/build.make CMakeFiles/cmTC_17fa4.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG'
+        Building C object CMakeFiles/cmTC_17fa4.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_17fa4.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG/test_mpi.c
+        Linking C executable cmTC_17fa4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17fa4.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_17fa4.dir/test_mpi.c.o -o cmTC_17fa4  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-gBjnQG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_912a1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_912a1.dir/build.make CMakeFiles/cmTC_912a1.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_912a1.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_912a1.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_912a1.dir/build.make:78: CMakeFiles/cmTC_912a1.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_912a1/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3d6fe/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3d6fe.dir/build.make CMakeFiles/cmTC_3d6fe.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil'
+        Building C object CMakeFiles/cmTC_3d6fe.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_3d6fe.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil/test_mpi.c
+        Linking C executable cmTC_3d6fe
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d6fe.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_3d6fe.dir/test_mpi.c.o -o cmTC_3d6fe  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-YA9Sil'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15713/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15713.dir/build.make CMakeFiles/cmTC_15713.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_15713.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_15713.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_15713.dir/build.make:78: CMakeFiles/cmTC_15713.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_15713/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13371/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_13371.dir/build.make CMakeFiles/cmTC_13371.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j'
+        Building C object CMakeFiles/cmTC_13371.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_13371.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j/test_mpi.c
+        Linking C executable cmTC_13371
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13371.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_13371.dir/test_mpi.c.o -o cmTC_13371  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-Wldu5j'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6f51/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f6f51.dir/build.make CMakeFiles/cmTC_f6f51.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f6f51.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f6f51.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_f6f51.dir/build.make:78: CMakeFiles/cmTC_f6f51.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_f6f51/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cd618/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cd618.dir/build.make CMakeFiles/cmTC_cd618.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl'
+        Building C object CMakeFiles/cmTC_cd618.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_cd618.dir/test_mpi.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl/test_mpi.c
+        Linking C executable cmTC_cd618
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd618.dir/link.txt --verbose=1
+        /usr/bin/cc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_cd618.dir/test_mpi.c.o -o cmTC_cd618  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/CMakeScratch/TryCompile-33MNRl'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    directories:
+      source: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b517a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b517a.dir/build.make CMakeFiles/cmTC_b517a.dir/build
+        gmake[1]: Entering directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b517a.dir/cmake_hdf5_test.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_b517a.dir/cmake_hdf5_test.c.o -c /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_b517a.dir/build.make:78: CMakeFiles/cmTC_b517a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/denis/Desktop/Documents/Programming/beka/2-vtk/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_b517a/fast] Error 2
+        
+      exitCode: 2
+...
