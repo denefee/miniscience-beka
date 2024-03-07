@@ -16,15 +16,15 @@ def boundary(x):
 #         or abs(x[0] - 1) < tol or abs(x[1] - 1) < tol
 
 # Define boundary condition
-u0 = Expression("10*exp(-(pow(x[0] - 0.5, 2) + pow(x[1] - 0.5, 2)) / 0.02)", degree=2)
-# u0 = Constant(0.0)
+# u0 = Expression("10*exp(-(pow(x[0] - 0.5, 2) + pow(x[1] - 0.5, 2)) / 0.02)", degree=2)
+u0 = Constant(-12.0)
 bc = DirichletBC(V, u0, boundary)
 
 # Define variational problem
 u = TrialFunction(V)
 v = TestFunction(V)
-# f = Expression("sin(40*x[0]) + sin(40*x[1])", degree=2)
-f = Expression("10*exp(-(pow(x[0] - 0.5, 2) + pow(x[1] - 0.5, 2)) / 0.02)", degree=2)c
+f = Constant(-12.0)
+# f = Expression("10*exp(-(pow(x[0] - 0.5, 2) + pow(x[1] - 0.5, 2)) / 0.02)", degree=2)
 # g = Expression("sin(5*x[0])", degree=2)
 a = inner(grad(u), grad(v))*dx
 L = f*v*dx
